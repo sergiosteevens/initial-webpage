@@ -12,13 +12,18 @@
     <script src="https://kit.fontawesome.com/6f230aabce.js" crossorigin="anonymous"></script>
   <!--CSS Bootstrap-->  
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-  <!--Custom CSS  -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+   <!--Custom CSS  -->
+  
   <link rel="stylesheet" href="style.css">
+  
+<!-- AOS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-scrolled">
         <div class="mx-auto order-0">
           
            
@@ -40,22 +45,21 @@
            
               <a class="mycols m-3 btn btn-dark" href="#">Support</a>
 
-              <a class="mycols m-3 btn btn-dark" href="#">Shop</a>
+              <a class="mycols m-3 btn btn-dark" href="#char">Shop</a>
                         
             </div>
           </div>
         </div>
       </nav>
+
+
+   
       
       <!-- carousel -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
-
+    
+     
         
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div data-aos="fade-up" id="myCarousel" class="carousel slide" data-ride="carousel">
         
 
         <div class="carousel-inner">
@@ -97,7 +101,7 @@
         </ol>
       </div>
       
-        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div data-aos="fade-right" class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3" id="char">
           <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
             <div class="my-3 p-3">
               <h2 class="display-5">Another HeadLine</h2>
@@ -107,7 +111,7 @@
           </div>
         
 
-        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div data-aos="fade-right" class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div class="my-3 p-3">
             <h2 class="display-5">Another HeadLine</h2>
             <p>And an even wittier subheading.</p>
@@ -115,7 +119,7 @@
           <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
         </div>
 
-        <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div data-aos="fade-left" class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
           <div class="my-3 p-3">
             <h2 class="display-5">Another HeadLine</h2>
             <p>And an even wittier subheading.</p>
@@ -125,7 +129,7 @@
       </div>
 
 
-      <div  class="px-4 py-5 my-5 text-center" id="img"><a name="img">
+      <div data-aos="fade-left" class="px-4 py-5 my-5 text-center" id="img"><a name="img">
         <img  class="d-block mx-auto mb-4" ><i class="fab fa-bootstrap fa-5x" ></i>
         <h2>Centered hero</h2>
         <div class="col-lg-6 mx-auto">
@@ -135,7 +139,7 @@
     </div>
 
 
-      <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" >
+      <div data-aos="fade-down" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" >
         <img src="https://images.carandbike.com/car-images/gallery/porsche/911/exterior/porsche-911-backview.jpg?v=2019-04-11" alt="this slowpoke moves" width="1200"/>
       
         <!-- height="700" width="1200" -->
@@ -144,7 +148,7 @@
       
 
    <!-- footer -->
-   <footer class="bg-light shadow-sm container-sm">
+   <footer data-aos="fade-down" class="bg-light shadow-sm container-sm">
     <div class="row">
       <div class="col"><i class="fab fa-bootstrap fa-2x"></i>  Web</div>
       <div class="col"><h5>Features</h5>
@@ -190,5 +194,16 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
      
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
