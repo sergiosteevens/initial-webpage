@@ -1,4 +1,4 @@
-<h1>Pagina web con bootstrap<h1/>
+
   
 <p>Diseño de pagina web con bootstrap</p>
 
